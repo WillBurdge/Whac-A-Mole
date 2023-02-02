@@ -1,0 +1,30 @@
+.grid {
+    width: 606px;
+    height: 206px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 444px;
+}
+
+h2 {
+    margin-left: 444px;
+    font-size: 12px
+}
+
+.square {
+    height: 206px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.square:hover {
+    background-color: lightblue;
+    opacity: .60;
+}
+
+.mole {
+    background-image: url(mole.jpg);
+    background-size: 200px;
+}
+
+
